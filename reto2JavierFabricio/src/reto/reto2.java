@@ -50,7 +50,7 @@ public class reto2 {
 					salida = false;
 					break;
 				case 1:
-					funciones1.menuLongitud(sc);
+					funciones1.menuLlngitud(sc);
 					break;
 				case 2:
 					funciones1.menuPeso(sc);
