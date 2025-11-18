@@ -1,6 +1,10 @@
 package reto;
 
 public class funciones2 {
+	
+	public static int menuTemepatura(Scanner sc) {
+		
+	}
 
 	public static double cambioCelsiusFahrenheit(double num) {
 		double devuelto = (num *9 / 5) +32;
