@@ -50,10 +50,12 @@ public class reto2 {
 					salida = false;
 					break;
 				case 1:
+<<<<<<< HEAD
 					funciones1.menuLlngitud(sc);
+=======
+>>>>>>> branch 'main' of https://github.com/javieragustin2702-del/reto2-JavierFabricio.git
 					break;
 				case 2:
-					funciones1.menuPeso(sc);
 					break;
 				case 3:
 					funciones2.menuTemepatura(sc);
