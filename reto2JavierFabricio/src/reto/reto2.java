@@ -50,6 +50,14 @@ public class reto2 {
 				operacion = dimeEntero(n, sc);
 				switch (operacion) {
 				case 1:
+					break;
+				case 2:
+					break;
+				case 3:
+					funciones2.menuTemepatura(sc);
+					break;
+				case 4:
+					funciones2.menuVolumen(sc);
 				default:
 					System.out.println("Que sea de los números que te he dado");
 				}
