@@ -9,12 +9,13 @@ public class funciones2 {
 		boolean salir = true;
 		do {
 			try {
-				System.out.println("Selecicona la conversión de temperatura:\n1. Celsius a Fahrenheit\n2. Fahrenheit a Celsius");
+				System.out.println("Selecicona la conversión de temperatura:\n1. Celsius a Fahrenheit\n2. Fahrenheit a Celsius\n0. Salir");
 				num = Integer.parseInt(sc.nextLine());
 				double  num2 = 0;
 				switch (num) {
 				case 0:
 					salir = false;
+					break;
 				case 1:
 					System.out.println("Escribe los grados celsius que le quieres ingresar");
 					num2 = Double.parseDouble(sc.nextLine());
@@ -36,12 +37,16 @@ public class funciones2 {
 	
 	public static void menuVolumen(Scanner sc) {
 		int num = 0;
+		boolean salir = true;
 		do {
 			try {
-				System.out.println("Selecicona la conversión de volumen:\n1. Litros a Galone\n2. Galones a Litros");
+				System.out.println("Selecicona la conversión de volumen:\n1. Litros a Galones\n2. Galones a Litros\n0. Salir");
 				num = Integer.parseInt(sc.nextLine());
 				double  num2 = 0;
 				switch (num) {
+				case 0:
+					salir = false;
+					break;
 				case 1:
 					System.out.println("Escribe los Litros que le quieres ingresar");
 					num2 = Double.parseDouble(sc.nextLine());
@@ -57,7 +62,7 @@ public class funciones2 {
 			} catch (Exception e) {
 				System.out.println("Ponga lo indicado en el menú");
 			}
-		} while (true);
+		} while (salir != false);
 		
 	}
 

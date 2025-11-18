@@ -43,7 +43,7 @@ public class reto2 {
 		do {												//
 			try {
 				System.out
-						.println("Selecciona el tipo de conversión:\n1. Longitud\n2. peso\n3. Temperatura\n4. Volumen");
+						.println("Selecciona el tipo de conversión:\n1. Longitud\n2. peso\n3. Temperatura\n4. Volumen\n0. Salir");
 				operacion = dimeEntero(n, sc);
 				switch (operacion) {
 				case 0:
